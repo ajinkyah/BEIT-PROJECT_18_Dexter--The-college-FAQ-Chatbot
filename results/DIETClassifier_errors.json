@@ -1,0 +1,14 @@
+[
+  {
+    "text": "myselfLisa",
+    "entities": [
+      {
+        "start": 6,
+        "end": 10,
+        "value": "Lisa",
+        "entity": "username"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "text": "perfect",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5068171620368958
+    }
+  },
+  {
+    "text": "How many seats are available in EXTC ?",
+    "intent": "seats_in_extc",
+    "intent_prediction": {
+      "name": "seats_in_civil",
+      "confidence": 0.3632931411266327
+    }
+  },
+  {
+    "text": "How many seats are available in EXTC Department ?",
+    "intent": "seats_in_extc",
+    "intent_prediction": {
+      "name": "seats_in_civil",
+      "confidence": 0.3805229067802429
+    }
+  }
+]

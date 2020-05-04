@@ -1,0 +1,270 @@
+actions:
+- respond_out_of_scope
+- utter_about_us
+- utter_affiliate
+- utter_already_subscribed
+- utter_ask_name
+- utter_branch_civil
+- utter_branch_comp
+- utter_branch_extc
+- utter_branch_it
+- utter_branch_mech
+- utter_cheer_up
+- utter_confirmationemail
+- utter_default
+- utter_did_that_help
+- utter_facilities
+- utter_fees_general
+- utter_fees_obc
+- utter_fees_sc
+- utter_fees_st
+- utter_goodbye
+- utter_greet
+- utter_greet_name
+- utter_happy
+- utter_helpyou_response
+- utter_hostel
+- utter_how_to
+- utter_mission
+- utter_name
+- utter_no_email
+- utter_placement
+- utter_positive
+- utter_reach_us
+- utter_seats_in_civil
+- utter_seats_in_comp
+- utter_seats_in_extc
+- utter_seats_in_it
+- utter_seats_in_mech
+- utter_tfws
+- utter_total_branch
+- utter_vision
+entities:
+- affirm
+- branch_it
+- company
+- email
+- general
+- language
+- name
+- product
+- text
+- tfws
+- username
+- value
+intents:
+- username
+- feedback+did_that_help
+- email
+- hostel
+- affirm
+- greet
+- tfws
+- greet_name
+- fees_st
+- how_to
+- out_of_scope:
+    triggers: respond_out_of_scope
+    use_entities: []
+- mood_great
+- branch_it
+- facilities
+- goodbye
+- choose
+- fees_sc
+- affiliate
+- fees_general
+- placement
+- about_us
+- seats_in_mech
+- seats_in_it
+- vision
+- ask_name
+- reach_us
+- mission
+- fees_obc
+- seats_in_comp
+- seats_in_extc
+- seats_in_civil
+- deny
+- mood_unhappy
+- branch_comp
+- branch_extc
+- branch_mech
+- branch_civil
+- total_branch
+- None
+- feedback
+- no_email
+- respond_out_of_scope
+responses:
+  utter_about_us:
+  - text: A. P. Shah Institute of Technology (APSIT) has started functioning with
+      commitment of imparting state of art technical education so as to inculcate
+      conceptual know-how, analyzing skills, decision making abilities and leadership
+      qualities in the students. APSIT stands committed to the intellectual and moral
+      growth of every student. APSIT has experienced and proficient team which aspires
+      to unlock the hidden potential in subconscious minds of students and to create
+      competent Engineers with vision & social commitment.
+  utter_affiliate:
+  - text: Yes, AP Shah Institute of Technology is Mumbai University (MU) Affiliated.
+  utter_already_subscribed:
+  - text: Looks like {email} is already subscribed - good choice! If you haven't received
+      a newsletter in a while, maybe check your spam folder 🗑
+  utter_ask_name:
+  - text: What is your name?
+  utter_branch_civil:
+  - text: Intake for Civil Engineering is 120 Students.
+  - text: 120 capacity for Civil Dept.
+  - text: 120 only according to MU
+  utter_branch_comp:
+  - text: Intake for Computer Engineering is 60 Students.
+  - text: 60 capacity for Computer Dept
+  - text: 60 only according to MU
+  utter_branch_extc:
+  - text: Intake for EXTC Engineering is 60 Students.
+  - text: 60 capacity for EXTC dept
+  - text: 60 only according to MU
+  utter_branch_it:
+  - text: Intake for IT Engineering is 60 Students.
+  - text: 60 capacity for IT dept
+  - text: 60 only according to MU
+  utter_branch_mech:
+  - text: Intake for Mechanical Engineering is 120 Students.
+  - text: 120 capacity for Mechanical dept
+  - text: 120 only according to MU
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_confirmationemail:
+  - text: We sent a confirmation email to {email}.
+  utter_default:
+  - text: Sorry, I didn't get that 🤷. Could you please rephrase?
+  - text: I didn't understand, could you rephrase that?
+  - text: I'm sorry, but I didn't understand you. Could you please rephrase what you
+      just said?
+  - text: I'm afraid I didn't get what you just said. Could you rephrase that?
+  - text: I didn't quite get that, could you rephrase your message?
+  - text: Could you rephrase your message? I didn't get it, I'm sorry.
+  utter_did_that_help:
+  - buttons:
+    - payload: /affirm
+      title: 👍
+    - payload: /deny
+      title: 👎
+    text: Did that help you? Could you provide a feedback ?
+  utter_facilities:
+  - image: https://www.apsit.edu.in/sites/default/files/inline-images/Facilities%20provided.jpg
+    text: 'Our Institute Provides :'
+  utter_fees_general:
+  - text: Fees for General or Open Category is 110K INR.
+  - text: General Category fees are 110K INR.
+  - text: Open Category fees are 110K INR.
+  utter_fees_obc:
+  - text: Fees for OBC Caste is 30K INR.
+  - text: OBC category needs to provide there caste certificate,there fees would be
+      30K INR.
+  utter_fees_sc:
+  - text: Fees for SC Caste is 40K INR.
+  - text: SC category needs to provide there caste certificate,there fees would be
+      40K INR.
+  utter_fees_st:
+  - text: Fees for ST Caste is 35K INR.
+  - text: ST category needs to provide there caste certificate,there fees would be
+      35K INR.
+  utter_goodbye:
+  - text: Ciao {username},see you later and thanks for stopping by !
+  - text: It was a good talk {username}, hit me up later !
+  - text: Leaving so soon ? well no issues {username}, Have a nice day !
+  utter_greet:
+  - text: Hey there My name is Dexter, May I know your name before I assist you?
+  - text: Howdy buddy, Dexter here 🤖, May I know your name first ?
+  - text: Hola a todos, Dexter here to help you, who am I talking to ?
+  utter_greet_name:
+  - text: Thank you, {username}! Could your share your email address?
+  - text: Great, {username} ! I would be able to help you in future if you can provide
+      me your email address ?
+  - text: That's a nice name ! If you can provide me your email I could help you more
+      !
+  utter_happy:
+  - text: Great! Thank you for your information {username}, How can I assist you today
+      ?
+  - text: Awesome {username}, thanks! 👍, How can I help you today ?
+  - text: Sweet, thank you {username}! 😄, what can I do for you ?
+  - text: Thanks {username}! 👌, I could provide you with in and out of college !
+  - text: Cool, thank you {username}! I would be able to help you with some of your
+      querries regarding the college.
+  utter_helpyou_response:
+  - text: Thank you for the feedback, Hope you have a nice day.
+  utter_hostel:
+  - text: hmmm, well I'm not sure collge provides hostel yet, but maybe in future
+      👍
+  - text: To be honest, college don't provide hostel yet
+  - text: Sadly, no
+  - text: Unfortunately nope, you've to arrange on yourself the colleg can look out
+      for you though 😄
+  utter_how_to:
+  - text: I can provide you help regarding the admission process, can tell you seats
+      in this college for each department, about the college and it's life.
+  - text: I can help you with lots of things about collge and it's life !
+  - text: Try me ! I know a lot of things about this college 😄
+  utter_mission:
+  - text: To provide conducive and collaborative environment to meet contemporary
+      & future Engineering challenges by project based and value-added education with
+      the support of trained faculty.
+  utter_name:
+  - text: Name of the student who wants to get the information about the college.
+  utter_no_email:
+  - text: Hmm, I'm not sure that's a valid email, please make sure to include the
+      full address 😅
+  utter_placement:
+  - image: https://www.apsit.edu.in/sites/default/files/styles/large/public/field/image/rec.png?itok=aEeS2FYS
+    text: APSIT has emerged as hub for placement activities for students studying
+      in Thane, Navi Mumbai and Mumbai. Around 45 industries have visited campus and
+      provided placement to 1200 students nation wide.
+  utter_positive:
+  - text: Yes, thanks :)
+  utter_reach_us:
+  - text: Address:- Survey No. 12, Opp. Hypercity Mall, Kasarvadavali, Ghodbunder
+      Road, Thane West, Thane, Maharashtra, India 400615.
+  utter_seats_in_civil:
+  - text: AP Shah has a total of 120 Civil seats, which has been divided like 62 seats
+      for Jain Minority students 24 Management seats, and remaining 34 seats via CAP
+      rounds
+  utter_seats_in_comp:
+  - text: AP Shah has a total of 60 Computer seats, which has been divided like 31
+      seats for Jain Minority students 12 Management seats, and remaining 17 seats
+      via CAP rounds
+  utter_seats_in_extc:
+  - text: AP Shah has a total of 60 Extc seats, which has been divided like 31 seats
+      for Jain Minority students 12 Management seats, and remaining 17 seats via CAP
+      rounds
+  utter_seats_in_it:
+  - text: AP Shah has a total 60 IT seats, which has been divided like 31 seats for
+      Jain Minority students 12 Management seats, and remaining 17 seats via CAP rounds
+  utter_seats_in_mech:
+  - text: AP Shah has a total of 120 Mech seats, which has been divided like 62 seats
+      for Jain Minority students 24 Management seats, and remaining 34 seats via CAP
+      rounds
+  utter_tfws:
+  - text: "If student got admission under TFW scheme then students do not have to\
+      \ pay tuition fee but students have to pay other fee such as \t  exam fee, bus\
+      \ fee, deposit and hostel fee. 5% of total seats shall be filled by TFW scheme.\
+      \ Example- If there are 120 students in a      \t     department then there\
+      \ will be 6 Supernumerary Seats (in addition to 120 seats)"
+  utter_total_branch:
+  - text: AP Shah Institute of technology offers the total of 5 branches (IT, Computers,
+      Mechnical, Civil and EXTC)
+  utter_vision:
+  - text: APSIT aspires to be a premier institute producing globally competent engineering
+      professionals to contribute towards socio-economic growth of India.
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 60
+slots:
+  email:
+    type: text
+  name:
+    type: unfeaturized
+  username:
+    type: text

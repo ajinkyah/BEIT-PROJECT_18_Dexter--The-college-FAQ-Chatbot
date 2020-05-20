@@ -1,4 +1,4 @@
-# Dexter-Rasa-v1.9.5
+# Dexter- The College FAQ Chatbot Instruction Manual
 Basic use and functioning of the project
 
 To train the model just use the command - rasa train

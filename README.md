@@ -12,6 +12,9 @@ Dexter is a bot made as a college project by final year engineering students. It
 - It helps new students to get familiar about the college.
 - Helps with getting familiar with new environment.
 - Solves the most frequent issues for the student.
+- Solves the issues regarding the fees, education type, admission process & extracurricular activitites.
+- Benefits apart from just education.
+- Easy Interraction.
 
 ## 👷‍ Installation ##
 To install Dexter please clone the repo and do follow the link:

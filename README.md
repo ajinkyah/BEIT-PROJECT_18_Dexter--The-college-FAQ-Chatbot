@@ -10,4 +10,4 @@ Dexter is a bot made as a college project by final year engineering students. It
 # 👷‍ Installation #
 To install Dexter please clone the repo and run:
 
-code(cd Deter--The-college-FAQ-Chatbot)
+`code(cd Deter--The-college-FAQ-Chatbot)`

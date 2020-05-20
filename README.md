@@ -35,5 +35,5 @@ To install Dexter please clone the repo and do follow the link:
  
 ## 🎁 License ##
 
-Licensed under the GNU General Public License v3. Copyright 2020 Ajinkya Huddar. Copy of the license(https://github.com/ajinkyah/Dexter--The-college-FAQ-Chatbot/blob/master/LICENSE.md). Licensees may convey the work under this license. There is no warranty for the work.
+Licensed under the GNU General Public License v3. Copyright 2020 Ajinkya Huddar. [Copy of the license](https://github.com/ajinkyah/Dexter--The-college-FAQ-Chatbot/blob/master/LICENSE.md). Licensees may convey the work under this license. There is no warranty for the work.
  

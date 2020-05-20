@@ -3,7 +3,6 @@ The purpose of this repo is to showcase a contextual AI assistant built with the
 
 Dexter is a bot made as a college project by final year engineering students. It supports the following user goals:
 
-###user goals
 - It helps new students to get familiar about the college.
 - Helps with getting familiar with new environment.
 - Solves the most frequent issues for the student.

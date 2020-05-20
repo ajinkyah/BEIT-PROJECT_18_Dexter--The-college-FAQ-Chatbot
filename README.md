@@ -1,5 +1,5 @@
 # Dexter-Rasa-v1.9.5
-Update for Rasa and the bot
+Basic use and functioning of the project
 
 To train the model just use the command - rasa train
 

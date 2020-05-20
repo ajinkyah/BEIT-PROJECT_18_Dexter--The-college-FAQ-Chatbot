@@ -1,5 +1,9 @@
 # Dexter- The College FAQ Bot #
 
+## Contributors ##
+1. Chintan Suchak
+2. Chaitanya Bysani
+
 ## 🏄 Introduction ##
 The purpose of this repo is to showcase a contextual AI assistant built with the open source Rasa framework.
 

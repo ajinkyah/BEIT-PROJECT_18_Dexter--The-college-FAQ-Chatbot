@@ -1,14 +1,11 @@
-# Dexter- The College FAQ Chatbot Instruction Manual
-Basic use and functioning of the project
+🏄 Introduction
+The purpose of this repo is to showcase a contextual AI assistant built with the open source Rasa framework.
 
-To train the model just use the command - rasa train
+Dexter is a bot made as a college project by final year engineering students. It supports the following user goals:
 
-To run the code on terminal use command - rasa shell
+###user goals
+- It helps new students to get familiar about the college.
+- Helps with getting familiar with new environment.
+- Solves the most frequent issues for the student.
 
-If you want to interactive train the model for better understanding use command - rasa interactive
 
-If you want a better undertanding follow this link - https://rasa.com/docs/rasa/user-guide/rasa-tutorial/
-
-If you want to add additional data to it just go to data/nlu.md file and add your required data, and just hit the command - rasa train again to modify it.
-
-Enjoy the Bot

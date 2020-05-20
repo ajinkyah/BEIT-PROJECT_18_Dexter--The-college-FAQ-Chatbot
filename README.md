@@ -1,3 +1,5 @@
+# Dexter- The College FAQ Bot #
+
 ## 🏄 Introduction ##
 The purpose of this repo is to showcase a contextual AI assistant built with the open source Rasa framework.
 

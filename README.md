@@ -33,5 +33,7 @@ To install Dexter please clone the repo and do follow the link:
 
 `config.yml` - training configurations for the NLU pipeline and policy ensemble
  
- 
+## 🎁 License ##
+
+Licensed under the GNU General Public License v3. Copyright 2020 Ajinkya Huddar. Copy of the license. Licensees may convey the work under this license. There is no warranty for the work.
  

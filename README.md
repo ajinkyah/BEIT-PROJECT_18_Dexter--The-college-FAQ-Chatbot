@@ -12,7 +12,7 @@ To install Dexter please clone the repo and do follow the link:
 
  https://rasa.com/docs/rasa/user-guide/installation/
  
- #🤖 To run Dexter :#
+ # 🤖 To run Dexter : #
  
  Use `rasa train` to train a model (this will take a significant amount of memory to train, if you want to train it faster, try the training command with `--augmentation 0`).
  
